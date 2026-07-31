@@ -1,10 +1,26 @@
-# ml-06-serving
+# ml-06-serving-sandra
 
 [![Workflow Guide](https://img.shields.io/badge/Pro--Guide-pro--analytics--02-green)](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/)
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](./pyproject.toml)
 [![MIT](https://img.shields.io/badge/license-see%20LICENSE-yellow.svg)](./LICENSE)
 
 > Professional Python project: deploying and serving machine learning models.
+
+---
+
+## Author
+
+**Sandra Otubushin**
+
+- GitHub: [sandra8918](https://github.com/sandra8918)
+- Repository: [ml-06-serving-sandra](https://github.com/sandra8918/ml-06-serving-sandra)
+- Project Site: [ML 06 Serving Documentation](https://sandra8918.github.io/ml-06-serving-sandra/)
+
+## Project Attribution
+
+This project is based on the original **ml-06-serving** example created by Denise Case. It has been adapted as part of my professional analytics coursework.
+
+---
 
 ## Publishing Predictive Engines
 
@@ -67,7 +83,7 @@ See [docs/your-files.md](docs/your-files.md) for more.
 
 Links:
 
-- [ml_06_case.ipynb](notebooks/ml_06_case.ipynb)
+- [ml_06_serve_model.ipynb](notebooks/ml_06_serve_model.ipynb)
 
 ## Working Files
 
@@ -123,14 +139,6 @@ A new file `project.log` will appear in the root project folder.
 After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
-```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/ml-06-serving
-
-cd ml-06-serving
-code .
-```
-
 ### In a VS Code terminal
 
 These are listed for convenience.
@@ -157,11 +165,6 @@ uv run python -m mlstudio.app_case
 # TASK 1: train the example model and save it to artifacts/model.joblib.
 uv run python -m mlstudio.model_builder_case
 
-# CUSTOM: After completing your custom project,
-# Add the command to
-# train your custom model and save it to artifacts/model_yourname.joblib
-# uv run python -m mlstudio.model_builder_yourname
-
 # run common chores
 uv run ruff format .
 uv run ruff check . --fix
@@ -176,6 +179,7 @@ git push -u origin main
 ```
 
 </details>
+
 
 ## Notes
 
